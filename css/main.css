@@ -3,7 +3,6 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   color: #222;
-  font-size: 1.125rem;
   line-height: 1.5;
 }
 
@@ -11,14 +10,21 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2, nav a {
+h1, h2 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-}
-
-h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
+}
+
+i {
+  font-style: italic;
+}
+
+nav a {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 a {
@@ -46,6 +52,7 @@ figcaption {
 
 main figure + p {
   font-weight: bold;
+  font-size: 1.125rem;
 }
 
 strong {
